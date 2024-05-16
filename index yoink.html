@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style yoink.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
+  
+    <title>Weather eee</title>
+</head>
+
+<body>
+    <div class="cardContainer">
+    <div class="card">
+        <div class="search">
+            <input type="text" class="searchbar" placeholder="Search">
+            <button><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1.5em" width="1.5em" xmlns="http://www.w3.org/2000/svg"><path d="M909.6 854.5L649.9 594.8C690.2 542.7 712 479 712 412c0-80.2-31.3-155.4-87.9-212.1-56.6-56.7-132-87.9-212.1-87.9s-155.5 31.3-212.1 87.9C143.2 256.5 112 331.8 112 412c0 80.1 31.3 155.5 87.9 212.1C256.5 680.8 331.8 712 412 712c67 0 130.6-21.8 182.7-62l259.7 259.6a8.2 8.2 0 0 0 11.6 0l43.6-43.5a8.2 8.2 0 0 0 0-11.6zM570.4 570.4C528 612.7 471.8 636 412 636s-116-23.3-158.4-65.6C211.3 528 188 471.8 188 412s23.3-116.1 65.6-158.4C296 211.3 352.2 188 412 188s116.1 23.2 158.4 65.6S636 352.2 636 412s-23.3 116.1-65.6 158.4z"></path></svg></button>
+        </div>
+
+        <div class="weather loading">
+            <h2 class="city">Weather in Mumbai</h2>
+            <h2 class="date"> Date and time</h1>
+                <div class="container">
+                    
+                    <section class="temp-info">
+                        <h3 class="temp">Temperature: 39.99°C</h3>
+                        <h2 class="feels-like">Feels like:</h2>
+                    </section>
+
+                    <div class="flex">
+                        <img src="https://openweathermap.org/img/wn/02n.png" class="icon">
+                        <div class="description">Cloudy</div>
+                    </div>
+                </div>
+                
+            
+            <section>
+            <div class="weather-info">
+                <div class="category">
+                    <div class="humidity">Humidity:</div>
+                </div>      
+                <div class="key ">60%</div>
+             </div>
+             
+
+             <div class="weather-info">
+                <div class="category">
+                    <div class="maxUV">Max UV Index: </div>
+                </div>      
+                <div class="key ">60%</div>
+             </div>
+             <div class="weather-info">
+                <div class="category">
+                    <div class="dewPoint">Wind Gusts:</div>
+                </div>      
+                <div class="key ">60%</div>
+             </div>
+             <div class="weather-info">
+                <div class="category">
+                    <div class="cloudCover"> Cloud Cover</div>
+                </div>      
+                <div class="key ">60%</div>
+             </div>
+
+             <div class="weather-info">
+                <div class="category">
+                    <div class="visibility">Wind speed:</div>
+                </div>      
+                <div class="key ">60%</div>
+             </div>
+
+            </section>
+
+
+
+        </div>
+    </div>
+    </div>
+    
+    <div class="more-info">
+        <h1>What does it mean?</h1>
+
+            <div class="box">
+                <h2>Humidity</h2>
+                <p>Measure of moisture in the air, determining how sticky or clammy you might feel.</p>
+            </div>
+            <div class="box">
+                <h2>Dew Point</h2>
+                <p>Temperature at which moisture in the air condenses into water droplets, forming dew.</p>
+            </div>
+            <div class="box">
+                <h2>Feels like temperature</h2>
+                <p>Adjusted temperature perception based on factors like humidity and wind, affecting how warm or cool it seems.</p>
+            </div>
+            <div class="box">
+                <h2>Visibility</h2>
+                <p>Range of clear vision, influenced by weather conditions such as fog, rain, or haze.</p>
+            </div>
+            <div class="box">
+                <h2>Cloud Cover</h2>
+                <p>Extent to which the sky is obscured by clouds, influencing sunlight and overall brightness.</p>
+            </div>
+            <div class="box">
+                <h2>Max UV index</h2>
+                <p>Measurement of the sun's ultraviolet radiation intensity, indicating potential sunburn risk.</p>
+            </div>
+      
+        
+    </div>
+
+    <script src="script yoink.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> -->
+    
+</body>
+</html>
